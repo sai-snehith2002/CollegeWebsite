@@ -1,0 +1,64 @@
+/* Background image for the entire page */
+body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Center-align the text in the header */
+header {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
+/* Style the tagline text */
+.tagline {
+  font-size: 1.4em;
+  color: #0073e6;
+  font-weight: bold;
+}
+
+/* Background color for About Me section */
+.about-me {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Style the skills list */
+.skills ul {
+  list-style-type: disc;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Flexbox layout for arranging the projects */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  align-items: stretch; 
+}
+
+.project-item {
+  flex: 1; /* Each flex item will grow to take up an equal amount of space */
+  min-width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #ccc;
+  box-sizing: border-box; 
+}
+
+
+/* Consistent text across the page */
+h1, h2, h3, p, ul, li, address {
+  color: #000000;
+}
+
+/* Distinct appearance for contact information */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
